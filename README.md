@@ -1,18 +1,52 @@
-# :moneybag: Fake Currency Detection
 
-Say Goodbye to the counterfeit currency using this AI-based Project!
+# 💰 Fake Currency Detection (Deep Learning)
 
-## :clipboard: Overview 
+An AI-based system to identify **fake vs real currency notes** using image processing and deep learning.
+---
 
-The goal of this deep learning project Fake Currency Detection is to use image analysis to identify counterfeit currency. This study analyzes the visual characteristics of real and counterfeit money notes to distinguish between them using computer vision techniques.
+## 📌 Overview
 
-## ⚙️ Tools and libraries 
+This project uses **CNNs + OpenCV** to analyze visual patterns, textures, and security features of currency notes and classify them as **Real** or **Fake**. The model is trained on manually collected and augmented currency note images.
 
-1. Python
-2. OpenCV
-3. TensorFlow/Keras
-4. Google Colab
+---
 
-## 🤝 Contributions
+## ⚙️ Tech Stack
 
-Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+* Python
+* OpenCV
+* TensorFlow / Keras
+* Google Colab
+* Streamlit (for deployment)
+
+---
+
+## 🚀 Features
+
+* Real-time currency authenticity check
+* Easy-to-use Streamlit interface
+* High accuracy on test images
+* Works with custom uploaded photos
+
+---
+
+## ▶️ Usage
+
+**Run Streamlit App**
+
+```
+streamlit run Deploy.py
+---
+
+## 📈 Results
+
+Model shows strong performance with good accuracy in distinguishing real and fake notes.
+
+---
+
+## 🔮 Future Scope
+
+* Multi-currency support
+* Real-time mobile app
+* YOLO-based detection
+
+
